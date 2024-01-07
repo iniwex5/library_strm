@@ -76,7 +76,7 @@ def copy_files(source_dir, dest_dir, library_dir, cloud_type=None, cloud_path=No
     # 图片文件识别
     img_formats = ('.jpg', '.png', '.jpeg', '.bmp', '.gif', '.webp')
     # 其他文件识别
-    nfo_formats = ('.nfo', '.xml', '.txt', '.srt', '.ass', '.sub', '.smi', '.ssa')
+    nfo_formats = ('.nfo', '.xml', '.txt', '.srt', '.ass', '.sub', '.smi', '.ssa', '.strm')
     for root, dirs, files in os.walk(source_dir):
         # 如果遇到名为'extrafanart'的文件夹，则跳过处理该文件夹，继续处理其他文件夹
         if "extrafanart" in dirs:

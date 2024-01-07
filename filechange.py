@@ -177,7 +177,7 @@ class FileChange:
                 # 图片文件识别
                 img_formats = ('.jpg', '.png', '.jpeg', '.bmp', '.gif', '.webp')
                 # 其他文件识别
-                nfo_formats = ('.nfo', '.xml', '.txt', '.srt', '.ass', '.sub', '.smi', '.ssa')
+                nfo_formats = ('.nfo', '.xml', '.txt', '.srt', '.ass', '.sub', '.smi', '.ssa', '.strm')
                 if event_path.lower().endswith(video_formats):
                     if not strm_conf:
                         print(f"视频strm处理未开，复制视频文件到: {dest_file} ")
